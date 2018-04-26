@@ -1,0 +1,4 @@
+#Install MACS2
+
+pip install MACS2
+pip install -U MACS2
