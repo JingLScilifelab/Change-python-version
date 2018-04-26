@@ -1,0 +1,5 @@
+#Changing your python version with Anaconda. http://chris35wills.github.io/conda_python_version/
+
+conda search python
+conda install python=2.7
+
