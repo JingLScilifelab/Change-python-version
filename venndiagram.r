@@ -1,0 +1,5 @@
+plot_filename<-paste0("ssDNA_G4_overlap","_peaks.pdf") 
+venn.plot<-draw.pairwise.venn(area1 =15600,area2 = 34998,cross.area = 11446,category = c('G4','ssDNA') ,fill = c('red','blue'),alpha=c(0.3,0.3),cex=c(2,2,2),cat.cex=c(1.25,1.25),main=ssDNA_G4_overlap,ind=FALSE)
+pdf(plot_filename,width = 8,height = 8)
+grid.arrange(gTree(children=venn), top="ssDNA_G4_overlap") #, bottom="subtitle")
+dev.off()
